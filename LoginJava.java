@@ -108,7 +108,7 @@ class LoginFrame extends JFrame  {
         //calling the frame
         setScrren();
         
-    
+    // gthis is just commentg
     }
 }
 
