@@ -1,24 +1,5 @@
 
-import java.awt.event.*;
-import javax.swing.*;
-
-class LoginFrame extends JFrame  {
-
-    LoginFrame() {
-        FrameCreator();
-    }
-
-    LoginFrame(String s) {
-        super(s);
-        FrameCreator();
-    }
-
-    public void setScrren() {
-        setLayout(null);
-        setVisible(true);
-        setSize(600, 700);
-        //setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        dispatchEvent(new WindowEvent(null, WindowEvent.WINDOW_CLOSING));
+//deleted 
     }
 
     public void FrameCreator() {
